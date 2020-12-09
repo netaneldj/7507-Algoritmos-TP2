@@ -15,7 +15,7 @@ public class PruebaBuzon {
 		Buzon miBuzon = new Buzon();
 		
 		Mensaje mensaje1 = new Mensaje("Netanel","Eliel","Hola");
-		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","Â¿Como estas?");
+		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","¿Como estas?");
 		Mensaje mensaje3 = new Mensaje("Ilanit","Eliel",":(");
 		
 		assertEquals(miBuzon.cantiadTotalMensajes(),0);
@@ -36,7 +36,7 @@ public class PruebaBuzon {
 		Buzon miBuzon = new Buzon();
 		
 		Mensaje mensaje1 = new Mensaje("Netanel","Eliel","Hola");
-		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","Â¿Como estas?");
+		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","¿Como estas?");
 		Mensaje mensaje3 = new Mensaje("Ilanit","Eliel",":(");
 		Mensaje mensaje4 = new Mensaje("Netanel","Ilanit","Chau");
 		Mensaje mensaje5 = new Mensaje("Eliel","Ilanit",";)");
@@ -68,7 +68,7 @@ public class PruebaBuzon {
 		Buzon miBuzon = new Buzon();
 		
 		Mensaje mensaje1 = new Mensaje("Netanel","Eliel","Hola");
-		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","Â¿Como estas?");
+		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","¿Como estas?");
 		Mensaje mensaje3 = new Mensaje("Ilanit","Eliel",":(");
 		
 		assertEquals(miBuzon.cantidadMensajesA("Netanel"),0);
@@ -95,7 +95,7 @@ public class PruebaBuzon {
 		Buzon miBuzon = new Buzon();
 		
 		Mensaje mensaje1 = new Mensaje("Netanel","Eliel","Hola");
-		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","Â¿Como estas?");
+		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","¿Como estas?");
 		Mensaje mensaje3 = new Mensaje("Ilanit","Eliel",":(");
 		
 		miBuzon.archivarMensaje(mensaje1);
@@ -121,7 +121,7 @@ public class PruebaBuzon {
 		Buzon miBuzon = new Buzon();
 		
 		Mensaje mensaje1 = new Mensaje("Netanel","Eliel","Hola");
-		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","Â¿Como estas?");
+		Mensaje mensaje2 = new Mensaje("Eliel","Netanel","¿Como estas?");
 		Mensaje mensaje3 = new Mensaje("Ilanit","Eliel",":(");
 		
 		miBuzon.archivarMensaje(mensaje1);
